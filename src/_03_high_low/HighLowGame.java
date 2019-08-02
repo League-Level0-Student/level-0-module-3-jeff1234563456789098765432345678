@@ -30,7 +30,10 @@ public class HighLowGame {
 				System.exit(0);
 			}
 				// 12. Use "System.exit(0);" to quit the game if the user guessed the right answer.
-			
+			if(b==random) {
+				System.exit(0);
+				
+			}
 			// 7. if the guess is high
 				// 8. Tell them it's too high
 			if (b<=random) {
